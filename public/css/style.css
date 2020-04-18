@@ -1,0 +1,333 @@
+a, a:visited {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+a.active {
+    color: #ff7675;
+}
+
+.rounded-circle {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.cv, .oshop, .oblog, .todolist {
+    width: 300px;
+    height: 150px;
+    opacity: 30%;
+}
+
+div.informations h1 {
+    font-family: 'Slabo 27px', serif;
+    line-height: 1em;
+    font-size: 2em ;
+}
+
+div.informations p {
+    font-family: 'Codystar', cursive;
+    line-height: 1em;
+    font-size: 1.5em ;
+}
+
+
+.project--div {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+.project--div .project-hover {
+    display: none;
+}
+
+.tags {
+    font-family: 'Codystar', cursive;
+    font-size: 5vw;
+    line-height: 0.7em;
+}
+
+.project1 {
+    background-color: #00b894;
+}
+
+.project2 {
+    background-color: #ff7675;
+}
+
+.project3 {
+    background-color: #fdcb6e;
+}
+
+.project4 {
+    background-color: #fd79a8;
+}
+
+.project5 {
+    background-color: #78e08f;
+}
+
+.project--informations {
+    opacity: 90%;
+    position: absolute;
+    color: white;
+    line-height: 0.2em;
+    font-size: 1.8em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family:'Codystar', cursive;
+    font-size: 1em;
+    position: relative;
+    left: 4%;
+}
+
+i {
+    font-size: 1.5em ;
+}
+
+.alert {
+    padding: 10px 10px;
+    margin: 0;
+    text-align: center;   
+}
+
+p.tags--informations {
+    font-family: 'Codystar', cursive;
+    margin-top : 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+p.card-text {
+    margin-bottom:0;
+}
+
+.container--contact ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container--contact li {
+    list-style: none;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'Codystar', cursive;
+}
+
+.container--contact i {
+    margin: 10px 50px;
+    color: #00b894;
+}
+
+.container--contact i:hover {
+    color: #78e08f;
+}
+
+.container--contact a {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.container--contact a:hover {
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 768px) {
+    div.informations h1 {
+        font-size: 4em ;
+    }
+
+    div.informations p {
+        font-size: 2.5em ;
+    }
+
+    a, a:visited {
+        font-size: 1.8em;
+    }
+
+    footer p {
+        font-size: 2em;
+    }
+
+    .tags {
+        font-size: 4vw;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    .container--contact ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+ }
+
+ @media (min-width: 992px) { 
+    .tags {
+        font-size: 3vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container--contact a {
+        font-size: 6em;
+    }
+
+  }
+
+  @media (min-width: 1200px) { 
+
+    .nav--language {
+        font-size:0.5em;
+        position: absolute;
+        right: 25%;
+    }
+
+      .img-thumbnail {
+          margin: 0;
+      }
+
+      .cv, .oshop, .oblog, .todolist {
+        width: 320px;
+        height: 180px;
+        opacity: 30%;
+    }
+
+    .project--div {
+        width: 320px;
+        height: 180px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Slabo 27px', serif;    
+    }
+
+    .project-hover {
+        box-sizing: border-box;
+        width: 100%;
+        height: 3em;
+        background-color: white;
+        opacity: 70%;
+        position: absolute;
+        bottom: 0%;
+        justify-content: center;
+        align-items: center;
+        z-index:1000;
+    }
+
+    .project--div:hover .project-hover {
+        display: flex;
+    }
+
+    .project1:hover a:hover {
+        color: #00b894;
+    }
+    
+    .project2:hover a:hover {
+        color: #ff7675;
+    }
+    
+    .project3:hover a:hover {
+        color: #fdcb6e;
+    }
+    
+    .project4:hover a:hover {
+        color: #fd79a8;
+    }
+    
+    .project5:hover a:hover {
+        color: #78e08f;
+    }
+
+    .project--div:hover a {
+        font-size: 1.5em;
+    }
+
+    .tags {
+        font-size: 1.5vw;
+    }
+
+    i {
+        font-size: 1em ;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    div.informations h1 {
+        font-size: 2em ;
+        margin-bottom: 10px;
+    }
+
+    div.informations p {
+        font-size: 1em ;
+    }
+
+    a, a:visited {
+        font-size: 1.5em;
+    }
+
+    a:hover {
+        color: #ff7675;
+    }
+
+    div.card {
+        margin: 0 10px;
+    }
+
+    p.tags--description {
+        font-size: 0.8em;
+    }
+
+    .container--about {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container--contact a {
+        font-size: 8em;
+    }
+
+
+  }
+
+  
