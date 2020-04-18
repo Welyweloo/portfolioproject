@@ -11,8 +11,8 @@ $router->map("GET", "/", ["Controller", "home"], "home");
 $router->map("GET", "/about", ["Controller", "about"], "about");    
 $router->map("GET", "/contact", ["Controller", "contact"], "contact");  
 
+$match = $router->match();
 
-var_dump($match);
 if ($match === false) { 
     $controller = new Controller(); 
     $controller->fourofour();
