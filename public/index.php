@@ -4,7 +4,10 @@ require('../vendor/autoload.php');
 session_start();
 
 $router = new AltoRouter();
-$router->setBasePath($_SERVER['BASE_URI']);
+if(isset($_SERVER['BASE_URI']))
+{
+    $router->setBasePath($_SERVER['BASE_URI']);
+}
 
 require('../vendor/autoload.php');
 
