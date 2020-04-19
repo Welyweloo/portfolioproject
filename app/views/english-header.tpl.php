@@ -45,13 +45,13 @@
         </div>
         <ul class="nav justify-content-center m-2">
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "english-about") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/about/en">About</a>
+                <a class="nav-link <?= ($match['name'] === "home-english") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/en">Profile</a>
             </li> 
             <li class="nav-item">
                 <a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank">Resume <i class="fas fa-file-download" data-toggle="tooltip" data-placement="top" title="Aurelie's resume"></i></a>
             </li>  
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "home-english") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/en" >Projects</a>
+                <a class="nav-link <?= ($match['name'] === "english-projects") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>projects/en" >Projects</a>
             </li>           
             <li class="nav-item">
                 <a class="nav-link <?= ($match['name'] === "english-contact") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/contact/en">Contact</a>

@@ -1,58 +1,42 @@
-<main class="container row mx-auto justify-content-center">
-        <div class="project--div project1 m-3 text-center">
-            <div class="project--informations">
-                <p>First Steps</p>
-                <p class="tags">#PHP #SQL #CSS</p>
-            </div>
-            <img class="cv mx-auto d-block" src="/images/cv.gif" alt="Resume Project" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github"  data-toggle="tooltip" data-placement="bottom" title="See the code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Browse"></i></a></li>
-            </ul>
+<div class="container container--about row mx-auto justify-content-center">
+    <div class="row justify-content-center">
+        <i class="em em-loudspeaker" aria-role="presentation" aria-label="PUBLIC ADDRESS LOUDSPEAKER"></i>
+        <p class="alert col-lg-10">Aurélie <strong>is looking for a programmers dreamteam</strong> around Paris for an <strong>apprenticeship</strong> starting early September or October 2020 (<em>between 12 and 36 months</em>) in order to prepare <em>a computer science Bachelor, Software and Web programming path</em> then a Master's degree.</p>
+        <p class="alert"><strong>Available between July and October</strong> for an internship or a fixed-term contract !</p>
+    </div>
+    <div class="cards">
+    <div class="card card--softskills col 3 m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title ">Soft Skills</h5>
+            <p class="card-text">Self-taught</p>
+            <p class="card-text">Empathy</p>
+            <p class="card-text">Active Listenning</p>
+            <p class="card-text">Methodical</p>
+            <p class="card-text">Tenacity</p>
+            <p class="card-text">Team working</p>
         </div>
-        <div class="project--div project2 m-3 text-center">
-            <div class="project--informations">
-                <p>A dynamic blog</p>
-                <p class="tags">#POO #MVC</p>
-            </div>            
-            <img class="oblog mx-auto d-block" src="/images/oblog.gif" alt="oBlog Project" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="See the code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Browse"></i></a></li>
-            </ul>
+    </div>
+    <div class="card card--hardskills col 3 m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Technical Skills</h5>
+            <p class="card-text">PHP, POO, MVC, API</p>
+            <p class="card-text">Symfony</p>
+            <p class="card-text">SQL</p>
+            <p class="card-text">GIT</p>
+            <p class="card-text">HTML/CSS</p>
+            <p class="card-text">Bootstrap</p>
+            <p class="card-text">JavaScript</p>
+            <p class="card-text">Scrum Méthodology</p>
         </div>
-        <div class="project--div project3 m-3 text-center">
-            <div class="project--informations">
-                <p>E-shop</p>
-                <p class="tags">#MVC #ACTIVERECORDS</p>
-            </div>
-            <img class="oshop mx-auto d-block" src="/images/oshop.gif" alt="oShop Project " />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="See the code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Browse"></i></a></li>
-            </ul>
+    </div>
+    <div class="card card--development col 3 m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Personal development</h5>
+            <p class="card-text">Arduino Project</p>
+            <p class="card-text">Python</p>
+            <p class="card-text">System Administration</p>
         </div>
-        <div class="project--div project4 m-3 text-center">
-            <div class="project--informations">
-                <p>A back office</p>
-                <p class="tags">#PERMISSIONS #CRUD</p>
-            </div>
-            <img class="oshop mx-auto d-block" src="/images/oshop-back-office.gif" alt="oShop Back office Project" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="See the code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Browse"></i></a></li>
-            </ul>
         </div>
-
-        <div class="project--div project5 m-3 text-center">
-            <div class="project--informations">
-                <p>A JS todolist</p>
-                <p class="tags">#JS #AJAX #API #LUMEN</p>
-            </div>           
-            <img class="todolist mx-auto d-block" src="/images/todolist.gif" alt="Todolist Project" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="See the code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Browse"></i></a></li>
-            </ul>
-        </div>
-    </main>
+    </div>
+    </div>
+</div>

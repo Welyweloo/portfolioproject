@@ -55,15 +55,15 @@ class Controller
         
     }
 
-    public function about()
+    public function projects()
     {
         if(isset($_SESSION['language']) && $_SESSION['language'] === 'french')
         {
-            $this->show("about");
+            $this->show("projects");
         }
         else
         {
-            $this->show("english-about");
+            $this->show("english-projects");
         }
     }
 

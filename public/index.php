@@ -10,10 +10,10 @@ require('../vendor/autoload.php');
 
 
 $router->map("GET", "/", ["Controller", "home"], "home");   
-$router->map("GET", "/about", ["Controller", "about"], "about");    
+$router->map("GET", "/projects", ["Controller", "projects"], "projects");    
 $router->map("GET", "/contact", ["Controller", "contact"], "contact"); 
 $router->map("GET", "/en", ["Controller", "english"], "home-english");
-$router->map("GET", "/about/en", ["Controller", "about"], "english-about");
+$router->map("GET", "/projects/en", ["Controller", "projects"], "english-projects");
 $router->map("GET", "/contact/en", ["Controller", "contact"], "english-contact"); 
 
   

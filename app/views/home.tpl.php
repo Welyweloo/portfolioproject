@@ -1,58 +1,42 @@
-<main class="container row mx-auto justify-content-center">
-        <div class="project--div project1 m-3 text-center">
-            <div class="project--informations">
-                <p>Premiers pas</p>
-                <p class="tags">#PHP #SQL #CSS</p>
-            </div>
-            <img class="cv mx-auto d-block" src="/images/cv.gif" alt="Projet Cv" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github"  data-toggle="tooltip" data-placement="bottom" title="Voir le code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Visiter"></i></a></li>
-            </ul>
+    <div class="container container--about row mx-auto justify-content-center">
+    <div class="row justify-content-center">
+        <i class="em em-loudspeaker" aria-role="presentation" aria-label="PUBLIC ADDRESS LOUDSPEAKER"></i>
+        <p class="alert col-lg-10">Aurélie <strong>cherche une dreamteam de développeurs</strong>  en Île-de-france,  pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel</em> puis un Master par la suite.</p>
+        <p class="alert"><strong>Disponible entre Juillet et Septembre</strong> pour un stage ou un CDD !</p>
+    </div>
+    <div class="cards">
+    <div class="card card--softskills col 3 m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title ">Compétences Générales</h5>
+            <p class="card-text">Autodidacte</p>
+            <p class="card-text">Empathie</p>
+            <p class="card-text">Ecoute Active</p>
+            <p class="card-text">Organisation</p>
+            <p class="card-text">Persévérance</p>
+            <p class="card-text">Travail en équipe</p>
         </div>
-        <div class="project--div project2 m-3 text-center">
-            <div class="project--informations">
-                <p>Un blog dynamique</p>
-                <p class="tags">#POO #MVC</p>
-            </div>            
-            <img class="oblog mx-auto d-block" src="/images/oblog.gif" alt="Projet oBlog" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Voir le code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Visiter"></i></a></li>
-            </ul>
+    </div>
+    <div class="card card--hardskills col 3 m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Compétences Techniques</h5>
+            <p class="card-text">PHP, POO, MVC, API</p>
+            <p class="card-text">Symfony</p>
+            <p class="card-text">SQL</p>
+            <p class="card-text">GIT</p>
+            <p class="card-text">HTML/CSS</p>
+            <p class="card-text">Bootstrap</p>
+            <p class="card-text">JavaScript</p>
+            <p class="card-text">Méthodologie Scrum</p>
         </div>
-        <div class="project--div project3 m-3 text-center">
-            <div class="project--informations">
-                <p>Un site e-commerce</p>
-                <p class="tags">#MVC #ACTIVERECORDS</p>
-            </div>
-            <img class="oshop mx-auto d-block" src="/images/oshop.gif" alt="Projet oShop" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Voir le code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Visiter"></i></a></li>
-            </ul>
+    </div>
+    <div class="card card--development col 3 m-3" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">En cours (personnel)</h5>
+            <p class="card-text">Projet Arduino</p>
+            <p class="card-text">Python</p>
+            <p class="card-text">Administration Système</p>
         </div>
-        <div class="project--div project4 m-3 text-center">
-            <div class="project--informations">
-                <p>Un back-office</p>
-                <p class="tags">#PERMISSIONS #CRUD</p>
-            </div>
-            <img class="oshop mx-auto d-block" src="/images/oshop-back-office.gif" alt="Projet oShop Back-office" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Voir le code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Visiter"></i></a></li>
-            </ul>
         </div>
-
-        <div class="project--div project5 m-3 text-center">
-            <div class="project--informations">
-                <p>Une todolist en JS</p>
-                <p class="tags">#JS #AJAX #API #LUMEN</p>
-            </div>           
-            <img class="todolist mx-auto d-block" src="/images/todolist.gif" alt="Projet Todolist" />
-            <ul class="nav project-hover">
-                <li class="nav-item github"><a class="nav-link" href="www.google.fr" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Voir le code"></i></a></li>
-                <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Visiter"></i></a></li>
-            </ul>
-        </div>
-    </main>
+    </div>
+    </div>
+</div>

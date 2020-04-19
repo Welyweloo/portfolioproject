@@ -43,13 +43,13 @@
         </div>
         <ul class="nav justify-content-center m-2">
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "about") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/about">À propos</a>
+                <a class="nav-link <?= ($match['name'] === "home") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/">Profil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank">CV <i class="fas fa-file-download" data-toggle="tooltip" data-placement="top" title="CV d'Aurélie"></i></a>
             </li>    
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "home") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/" >Projets</a>
+                <a class="nav-link <?= ($match['name'] === "projects") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/projects" >Projets</a>
             </li>           
             <li class="nav-item">
                 <a class="nav-link <?= ($match['name'] === "contact") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/contact">Contact</a>
