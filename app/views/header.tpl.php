@@ -46,7 +46,7 @@
                 <a class="nav-link <?= ($match['name'] === "home") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/">Profil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank">CV <i class="fas fa-file-download" data-toggle="tooltip" data-placement="top" title="CV d'Aurélie"></i></a>
+                <a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank">CV</i></a>
             </li>    
             <li class="nav-item">
                 <a class="nav-link <?= ($match['name'] === "projects") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/projects" >Projets</a>

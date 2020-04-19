@@ -78,7 +78,7 @@ div.informations p {
 }
 
 .project--informations {
-    opacity: 90%;
+    opacity: 100%;
     position: absolute;
     color: white;
     line-height: 0.2em;
@@ -108,10 +108,6 @@ i {
     text-align: justify;   
 }
 
-.cards {
-    display: flex;
-    flex-direction: column;
-}
 
 .card--softskills {
     background-color: #fdcb6e;
