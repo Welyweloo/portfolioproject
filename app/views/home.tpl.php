@@ -35,7 +35,7 @@
         <div class="project--div project4 m-3 text-center">
             <div class="project--informations">
                 <p>Un back-office</p>
-                <p class="tags">#PERMISSIONS</p>
+                <p class="tags">#PERMISSIONS #CRUD</p>
             </div>
             <img class="oshop mx-auto d-block" src="/images/oshop-back-office.gif" alt="Projet oShop Back-office" />
             <ul class="nav project-hover">
