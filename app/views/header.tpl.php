@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:site_name" content="AURELIE ANGLIO"/>
+    <meta property="og:site_name" content="Aurélie ANGLIO"/>
     <meta property="og:title" content="DEVELOPPEUR WEB"/>
     <meta property="og:url" content="http://aurelie.chercheunealternance.fr"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description" content="portfolio de projets + développement web + alternance informatique"/>
-    <meta itemprop="name" content="AURELIE ANGLIO"/>
+    <meta property="og:description" content="Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour une Licence Informatique. Présentation de ses projets professionnels et personnels de développement web. "/>
+    <meta itemprop="name" content="Aurélie ANGLIO"/>
     <meta itemprop="url" content="http://aurelie.chercheunealternance.fr"/>
-    <meta itemprop="description" content="portfolio de projets + développement web + alternance informatique"/>
+    <meta itemprop="description" content="Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour une Licence Informatique. Présentation de ses projets professionnels et personnels de développement web. "/>
     <title>Les projets d'Aurélie</title>
     <link rel="shortcut icon" href="/images/favicon.ico" src="https://www.flaticon.com/authors/iconixar/">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">

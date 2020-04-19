@@ -1,8 +1,8 @@
 <div class="container container--about row mx-auto justify-content-center">
     <div class="row justify-content-center">
         <i class="em em-loudspeaker" aria-role="presentation" aria-label="PUBLIC ADDRESS LOUDSPEAKER"></i>
-        <p class="alert col-lg-10">Aurélie <strong>is looking for a nice programmer team</strong> for an <strong>apprenticeship</strong> starting early September or October 2020 (<em>between 12 and 36 months</em>) in order to prepare <em>a computer science Bachelor, Software and Web programming path.</em></p>
-        <p class="alert"><strong>Available between July and October</strong> for an internship or a fixed-term contract!</p>
+        <p class="alert col-lg-10">Aurélie <strong>is looking for a programmers dreamteam</strong> around Paris for an <strong>apprenticeship</strong> starting early September or October 2020 (<em>between 12 and 36 months</em>) in order to prepare <em>a computer science Bachelor, Software and Web programming path</em> then a Master's degree.</p>
+        <p class="alert"><strong>Available between July and October</strong> for an internship or a fixed-term contract !</p>
     </div>
     <div class="cards">
     <div class="card card--softskills col 3 m-3" style="width: 18rem;">
@@ -11,8 +11,8 @@
             <p class="card-text">Self-taught</p>
             <p class="card-text">Empathy</p>
             <p class="card-text">Active Listenning</p>
-            <p class="card-text">Méthodical</p>
-            <p class="card-text">Singleness</p>
+            <p class="card-text">Methodical</p>
+            <p class="card-text">Tenacity</p>
             <p class="card-text">Team working</p>
         </div>
     </div>
