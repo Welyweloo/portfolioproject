@@ -1,7 +1,7 @@
 <div class="container container--about row mx-auto justify-content-center">
     <div class="row justify-content-center">
         <i class="em em-loudspeaker" aria-role="presentation" aria-label="PUBLIC ADDRESS LOUDSPEAKER"></i>
-        <p class="alert col-lg-10">Aurélie <strong>cherche une dreamteam de développeurs</strong> pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel</em></p>
+        <p class="alert col-lg-10">Aurélie <strong>cherche une dreamteam de développeurs</strong> pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel.</em></p>
         <p class="alert"><strong>Disponible entre Juillet et Septembre</strong> pour un stage ou un CDD !</p>
     </div>
     <div class="cards">
