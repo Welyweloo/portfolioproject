@@ -6,20 +6,29 @@ session_start();
 $router = new AltoRouter();
 $router->setBasePath($_SERVER['BASE_URI']);
 
+require('../vendor/autoload.php');
+
 
 $router->map("GET", "/", ["Controller", "home"], "home");   
 $router->map("GET", "/about", ["Controller", "about"], "about");    
-$router->map("GET", "/contact", ["Controller", "contact"], "contact");  
+$router->map("GET", "/contact", ["Controller", "contact"], "contact"); 
+$router->map("GET", "/en", ["Controller", "english"], "home-english");
+$router->map("GET", "/about/en", ["Controller", "about"], "english-about");
+$router->map("GET", "/contact/en", ["Controller", "contact"], "english-contact"); 
+
+  
+
 
 $match = $router->match();
 
 if ($match === false) { 
-    $controller = new Controller(); 
+    $controllerToUse = "App\Controller\Controller"; 
+    $controller = new $controllerToUse(); 
     $controller->fourofour();
 }else{
 
-    if(!empty($match['params']['codeISO'])){
-        $_SESSION['currency'] = $match['params']['codeISO'];
+    if(!empty($match['params']['language'])){
+        $_SESSION['language'] = $match['params']['language'];
     }
     
     $controllerToUse = "App\Controller\\".$match["target"][0]; 

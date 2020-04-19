@@ -1,11 +1,11 @@
 <footer class="nav justify-content-center my-4">
         <ul class="nav row">
-            <li class="nav-item"><a class="nav-link" href="https://github.com/welyweloo" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="Profil GitHub"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/aurelie-a-bb113987/" target="_blank"><i class="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="Profil LinkedIn"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/0rely/" target="_blank"><i class="fab fa-instagram" data-toggle="tooltip" data-placement="top" title="Profil Instagram"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank"><i class="fas fa-file-download" data-toggle="tooltip" data-placement="top" title="CV d'Aurélie"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/welyweloo" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="GitHub Profile"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/aurelie-a-bb113987/" target="_blank"><i class="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn Profile"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/0rely/" target="_blank"><i class="fab fa-instagram" data-toggle="tooltip" data-placement="top" title="Instagram Profile"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank"><i class="fas fa-file-download" data-toggle="tooltip" data-placement="top" title="Aurelie's resume"></i></a></li>
         </ul>
-        <p>À bientôt</p>
+        <p>Looking forward to see you again</p>
         
         
         
@@ -31,9 +31,10 @@
     englishButton.addEventListener('click', 
         function()
         {
-            header("Location :". $_SERVER['BASE_URI']."/en");
+            header("Location :".$_SERVER['BASE_URI']."/en");
         }
     );
 </script>
+
 </body>
 </html>

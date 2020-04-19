@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les projets d'Aurélie</title>
+    <title>Aurelie's Projects</title>
     <link rel="shortcut icon" href="/images/favicon.ico" src="https://www.flaticon.com/authors/iconixar/">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -16,32 +16,32 @@
     <header>
     <ul class="nav nav--language justify-content-center m-2">
             <li class="nav-item">
-                <a class="nav-link <?= (isset($_SESSION['language']) && $_SESSION['language'] === 'english') ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/en">English</a>
+                <a class="nav-link <?= (isset($_SESSION['language']) && $_SESSION['language'] === 'english') ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/en" id="english">English</a>
             </li>
             <li class="nav-item">
             <a class="nav-link">|</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link <?= (isset($_SESSION['language']) && $_SESSION['language'] === 'french') ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/">Français</a>
+            <li class="nav-item">
+                <a class="nav-link <?= (isset($_SESSION['language']) && $_SESSION['language'] === 'french') ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/" id="french">French</a>
             </li>
         </ul>
         <div class="image m-5">
-            <img class="rounded-circle img-thumbnail mx-auto d-block" src="/images/image.png" alt="Photo d'Aurélie" />
+            <img class="rounded-circle img-thumbnail mx-auto d-block" src="/images/image.png" alt="Aurelie's Picture" />
         </div>
         <div class="informations text-center m-2">
 
             <h1 class="m-0">Aurélie A.</h1>
-            <p>Développement web et logiciel</p>
+            <p>Web and software development</p>
         </div>
         <ul class="nav justify-content-center m-2">
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "about") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/about">À propos</a>
+                <a class="nav-link <?= ($match['name'] === "english-about") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/about/en">About</a>
             </li> 
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "home") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/" >Projets</a>
+                <a class="nav-link <?= ($match['name'] === "home-english") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/en" >Projects</a>
             </li>           
             <li class="nav-item">
-                <a class="nav-link <?= ($match['name'] === "contact") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/contact">Contact</a>
+                <a class="nav-link <?= ($match['name'] === "english-contact") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/contact/en">Contact</a>
             </li>
         </ul>
     </header>

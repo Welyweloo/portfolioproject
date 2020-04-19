@@ -46,7 +46,7 @@
 
         <div class="project--div project5 m-3 text-center">
             <div class="project--informations">
-                <p>Une todolist dynamique</p>
+                <p>Une todolist en JS</p>
                 <p class="tags">#JS #AJAX #API #LUMEN</p>
             </div>           
             <img class="todolist mx-auto d-block" src="/images/todolist.gif" alt="Projet Todolist" />

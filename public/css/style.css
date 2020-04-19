@@ -19,6 +19,10 @@ a.active {
     opacity: 30%;
 }
 
+.informations {
+    position: relative;
+}
+
 div.informations h1 {
     font-family: 'Slabo 27px', serif;
     line-height: 1em;
@@ -26,7 +30,7 @@ div.informations h1 {
 }
 
 div.informations p {
-    font-family: 'Codystar', cursive;
+    font-family: 'Codystar';
     line-height: 1em;
     font-size: 1.5em ;
 }
@@ -48,7 +52,7 @@ div.informations p {
 }
 
 .tags {
-    font-family: 'Codystar', cursive;
+    font-family: 'Codystar';
     font-size: 5vw;
     line-height: 0.7em;
 }
@@ -90,10 +94,8 @@ footer {
 }
 
 footer p {
-    font-family:'Codystar', cursive;
+    font-family: 'CodyStar'  ;
     font-size: 1em;
-    position: relative;
-    left: 4%;
 }
 
 i {
@@ -101,19 +103,35 @@ i {
 }
 
 .alert {
-    padding: 10px 10px;
+    padding: 10px 30px;
     margin: 0;
-    text-align: center;   
-}
-
-p.tags--informations {
-    font-family: 'Codystar', cursive;
-    margin-top : 10px;
+    text-align: justify;   
 }
 
 .cards {
     display: flex;
     flex-direction: column;
+}
+
+.card--softskills {
+    background-color: #fdcb6e;
+    color: #cd6133;
+    opacity: 80%;
+}
+.card--hardskills {
+    background-color: #78e08f;
+    color: #218c74;
+    opacity: 80%;
+}
+.card--development {
+    background-color: #ff7675;
+    color: #6F1E51;
+    opacity: 80%;
+}
+
+h5 {
+    text-align: center;
+    font-family:  'CodyStar'  ;
 }
 
 p.card-text {
@@ -130,16 +148,16 @@ p.card-text {
     list-style: none;
     text-align: center;
     font-size: 0.8em;
-    font-family: 'Codystar', cursive;
+    font-family:  'CodyStar'  ;
 }
 
 .container--contact i {
     margin: 10px 50px;
-    color: #00b894;
+    color: black;
 }
 
 .container--contact i:hover {
-    color: #78e08f;
+    color: #ff7675;
 }
 
 .container--contact a {
@@ -174,6 +192,11 @@ p.card-text {
         font-size: 4vw;
     }
 
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
     .card-body {
         padding: 20px;
     }
@@ -190,6 +213,7 @@ p.card-text {
         padding: 0;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
@@ -309,8 +333,17 @@ p.card-text {
         color: #ff7675;
     }
 
-    div.card {
+    .card {
         margin: 0 10px;
+    }
+
+    .card:hover {
+        opacity:100%;
+    }
+
+
+    p.card-text {
+        margin-bottom: 5px;
     }
 
     p.tags--description {
