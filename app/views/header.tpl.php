@@ -44,7 +44,10 @@
         <ul class="nav justify-content-center m-2">
             <li class="nav-item">
                 <a class="nav-link <?= ($match['name'] === "about") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/about">À propos</a>
-            </li> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank">CV <i class="fas fa-file-download" data-toggle="tooltip" data-placement="top" title="CV d'Aurélie"></i></a>
+            </li>    
             <li class="nav-item">
                 <a class="nav-link <?= ($match['name'] === "home") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/" >Projets</a>
             </li>           
