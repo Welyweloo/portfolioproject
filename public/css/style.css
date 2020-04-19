@@ -47,8 +47,37 @@ div.informations p {
 
 }
 
-.project--div .project-hover {
-    display: none;
+.project-hover {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3em;
+    background-color: white;
+    opacity: 70%;
+    position: absolute;
+    bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    z-index:1000;
+}
+
+.project1 a {
+    color: #00b894;
+}
+
+.project2 a {
+    color: #ff7675;
+}
+
+.project3 a {
+    color: #fdcb6e;
+}
+
+.project4 a {
+    color: #fd79a8;
+}
+
+.project5 a {
+    color: #78e08f;
 }
 
 .tags {
@@ -166,7 +195,6 @@ p.card-text {
 }
 
 
-
 @media (min-width: 768px) {
     div.informations h1 {
         font-size: 4em ;
@@ -185,6 +213,10 @@ p.card-text {
     }
 
     .tags {
+        font-size: 4vw;
+    }
+
+    .project-hover i {
         font-size: 4vw;
     }
 
@@ -229,6 +261,10 @@ p.card-text {
         font-size: 6em;
     }
 
+    .project-hover i {
+        font-size: 3vw;
+    }
+
   }
 
   @media (min-width: 1200px) { 
@@ -260,16 +296,11 @@ p.card-text {
     }
 
     .project-hover {
-        box-sizing: border-box;
-        width: 100%;
-        height: 3em;
-        background-color: white;
-        opacity: 70%;
-        position: absolute;
-        bottom: 0%;
-        justify-content: center;
-        align-items: center;
-        z-index:1000;
+        display:none;
+    }
+
+    .project-hover i {
+        font-size: 1.5vw;
     }
 
     .project--div:hover .project-hover {
@@ -355,7 +386,6 @@ p.card-text {
     .container--contact a {
         font-size: 8em;
     }
-
 
   }
 

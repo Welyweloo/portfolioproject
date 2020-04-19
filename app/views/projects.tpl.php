@@ -55,6 +55,5 @@
                 <li class="nav-item view"><a class="nav-link" href="#" target="_blank"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Visiter"></i></a></li>
             </ul>
         </div>
-        
     </main>
     
