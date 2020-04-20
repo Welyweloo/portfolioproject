@@ -20,22 +20,6 @@
             $(function () {
                 $('[data-toggle="tooltip"]').tooltip()
             });
-
-            frenchButton = document.getElementById('french');
-            frenchButton.addEventListener('click', 
-                function()
-                {
-                    header("Location :". $_SERVER['BASE_URI']);
-                }
-            );
-
-            englishButton = document.getElementById('english');
-            englishButton.addEventListener('click', 
-                function()
-                {
-                    header("Location :". $_SERVER['BASE_URI']."/en");
-                }
-            );
         </script>
     </body>
 </html>
