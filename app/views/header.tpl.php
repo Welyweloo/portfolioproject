@@ -38,7 +38,7 @@
         </div>
         <div class="informations text-center m-2">
 
-            <h1 class="m-0">Aurélie A.</h1>
+            <h1 class="m-0">Aurélie A. <span class="localisation"><i class="em em-round_pushpin" aria-role="presentation" aria-label="ROUND PUSHPIN"></i> Paris</span></h1>
             <p>Développement web et logiciel</p>
         </div>
         <ul class="nav justify-content-center m-2">

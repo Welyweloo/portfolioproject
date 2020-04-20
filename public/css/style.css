@@ -8,6 +8,10 @@ a.active {
     color: #ff7675;
 }
 
+.nav--language {
+    font-size: 0.8em;
+}
+
 .rounded-circle {
     max-width: 200px;
     max-height: 200px;
@@ -27,6 +31,16 @@ div.informations h1 {
     font-family: 'Slabo 27px', serif;
     line-height: 1em;
     font-size: 2em ;
+}
+
+.localisation {
+    font-size: 0.7em;
+    position: absolute;
+    top: -20px;
+}
+
+.localisation i {
+    font-size: 0.6em;
 }
 
 div.informations p {
@@ -204,6 +218,10 @@ p.card-text {
         font-size: 2.5em ;
     }
 
+    .localisation {
+        top: -40px;
+    }
+
     a, a:visited {
         font-size: 1.8em;
     }
@@ -278,6 +296,10 @@ p.card-text {
       .img-thumbnail {
           margin: 0;
       }
+
+      .localisation {
+        top: -20px;
+    }
 
       .cv, .oshop, .oblog, .todolist {
         width: 320px;
