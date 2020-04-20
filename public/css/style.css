@@ -15,6 +15,9 @@ a.active {
 .rounded-circle {
     max-width: 200px;
     max-height: 200px;
+    -webkit-box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.75);
 }
 
 .cv, .oshop, .oblog, .todolist {
@@ -44,9 +47,11 @@ div.informations h1 {
 }
 
 div.informations p {
-    font-family: 'Codystar';
+    text-transform: uppercase;
+    font-family:  'Comfortaa';
     line-height: 1em;
-    font-size: 1.5em ;
+    font-size: 1em ;
+    
 }
 
 
@@ -95,7 +100,8 @@ div.informations p {
 }
 
 .tags {
-    font-family: 'Codystar';
+    text-transform: uppercase;
+    font-family:  'Comfortaa';
     font-size: 5vw;
     line-height: 0.7em;
 }
@@ -137,12 +143,17 @@ footer {
 }
 
 footer p {
-    font-family: 'CodyStar'  ;
+    text-transform: uppercase;
+    font-family:  'Comfortaa';
     font-size: 1em;
 }
 
 i {
     font-size: 1.5em ;
+}
+
+.presentation {
+    padding: 10px 30px;
 }
 
 .alert {
@@ -169,8 +180,9 @@ i {
 }
 
 h5 {
+    text-transform: uppercase;
+    font-family:  'Comfortaa';
     text-align: center;
-    font-family:  'CodyStar'  ;
 }
 
 p.card-text {
@@ -187,7 +199,8 @@ p.card-text {
     list-style: none;
     text-align: center;
     font-size: 0.8em;
-    font-family:  'CodyStar'  ;
+    text-transform: uppercase;
+    font-family:  'Comfortaa';
 }
 
 .container--contact i {
@@ -215,7 +228,7 @@ p.card-text {
     }
 
     div.informations p {
-        font-size: 2.5em ;
+        font-size: 2em ;
     }
 
     .localisation {
@@ -227,11 +240,11 @@ p.card-text {
     }
 
     footer p {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .tags {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     .project-hover i {
@@ -252,7 +265,7 @@ p.card-text {
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .container--contact ul {
@@ -267,7 +280,7 @@ p.card-text {
 
  @media (min-width: 992px) { 
     .tags {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .cards {
@@ -329,23 +342,27 @@ p.card-text {
         display: flex;
     }
 
-    .project1:hover a:hover {
+    .project-hover a {
+        color: black;
+    } 
+
+    .project1 a:hover {
         color: #00b894;
     }
     
-    .project2:hover a:hover {
+    .project2 a:hover {
         color: #ff7675;
     }
     
-    .project3:hover a:hover {
+    .project3 a:hover {
         color: #fdcb6e;
     }
     
-    .project4:hover a:hover {
+    .project4 a:hover {
         color: #fd79a8;
     }
     
-    .project5:hover a:hover {
+    .project5 a:hover {
         color: #78e08f;
     }
 
@@ -354,7 +371,7 @@ p.card-text {
     }
 
     .tags {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     i {
