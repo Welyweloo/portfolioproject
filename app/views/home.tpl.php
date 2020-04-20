@@ -1,9 +1,9 @@
         
         <div class="container container--about row mx-auto justify-content-center">
             <div class="row justify-content-center">
-                <p class="presentation text-justify col-lg-10">Ancienne Chargée d'Affaires dans le transport arrivée dans la communauté des développeurs en 2019 après une formation autodidacte, actuellement en formation de Développeur Web dans la splendide école qu'est <strong> O'Clock</strong>, jusqu'en Juin 2020.</p>
+                <p class="presentation text-justify col-lg-10">Ancienne Chargée d'Affaires dans le transport arrivée dans la communauté des développeurs en 2019 après une formation autodidacte, actuellement en formation de Développeur Web dans la splendide école<strong> O'Clock</strong>, jusqu'en Juin 2020.</p>
                 <p class="alert col-lg-10"> <i class="em em-loudspeaker"> </i> Aurélie <strong>cherche une dreamteam de développeurs</strong>  en Île-de-france,  pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel</em> puis un Master par la suite.</p>
-                <p class="alert"><strong>Disponible entre Juillet et Septembre</strong> pour un stage ou un CDD !</p>
+                <p class="alert"><strong>Disponible également entre Juillet et Septembre</strong> pour un stage ou un CDD !</p>
             </div>
             <div class="cards">
                 <div class="card card--softskills col 3 m-3" style="width: 18rem;">
@@ -11,7 +11,7 @@
                         <h5 class="card-title ">Compétences Générales</h5>
                         <p class="card-text">Autodidacte</p>
                         <p class="card-text">Empathie</p>
-                        <p class="card-text">Ecoute Active</p>
+                        <p class="card-text">Écoute Active</p>
                         <p class="card-text">Organisation</p>
                         <p class="card-text">Persévérance</p>
                         <p class="card-text">Travail en équipe</p>

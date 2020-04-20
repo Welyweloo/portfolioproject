@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour une Licence Informatique. Présentation de ses projets professionnels et personnels de développement web. ">
         <meta property="og:site_name" content="Aurélie ANGLIO"/>
         <meta property="og:title" content="DEVELOPPEUR WEB"/>
         <meta property="og:url" content="http://aurelie.chercheunealternance.fr"/>
@@ -14,7 +15,7 @@
         <link rel="shortcut icon" href="/images/favicon.ico" href="https://www.flaticon.com/authors/iconixar/">
         <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script rel="preconnect" src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="/css/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap&family=Slabo+27px&display=swap" rel="stylesheet">
     </head>

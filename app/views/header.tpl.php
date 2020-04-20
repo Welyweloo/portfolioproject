@@ -13,7 +13,7 @@
         <link rel="shortcut icon" href="/images/favicon.ico" href="https://www.flaticon.com/authors/iconixar/">
         <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script rel="preconnect" src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="/css/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap&family=Slabo+27px&display=swap" rel="stylesheet">
         
