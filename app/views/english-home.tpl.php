@@ -11,7 +11,7 @@
                     <h5 class="card-title ">Soft Skills</h5>
                     <p class="card-text">Self-taught</p>
                     <p class="card-text">Empathy</p>
-                    <p class="card-text">Active Listenning</p>
+                    <p class="card-text">Active Listening</p>
                     <p class="card-text">Methodical</p>
                     <p class="card-text">Tenacity</p>
                     <p class="card-text">Team working</p>

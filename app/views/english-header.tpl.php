@@ -43,7 +43,7 @@
                     <a class="nav-link <?= ($match['name'] === "home-english") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/en">Profile</a>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link" href="/docs/cv_aurelie_maj_april_2020.pdf" target="_blank">Resume</a>
+                    <a class="nav-link" href="/docs/resume_aurelie_maj_april_2020.pdf" target="_blank">Resume</a>
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link <?= ($match['name'] === "english-projects") ? 'active' : '' ?>" href="<?= $_SERVER['BASE_URI'] ?>/projects/en" >Projects</a>
