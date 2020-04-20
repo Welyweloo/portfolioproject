@@ -1,7 +1,7 @@
 <div class="container container--about row mx-auto justify-content-center">
     <div class="row justify-content-center">
         <p class="presentation text-justify col-lg-10">Ancienne Chargée d'Affaires dans le transport arrivée dans la communauté des développeurs en 2019 après une formation autodidacte, actuellement en formation de Développeur Web dans la splendide école qu'est <strong> O'Clock</strong>, jusqu'en Juin 2020.</p>
-        <p class="alert col-lg-10"> <i class="em em-loudspeaker" aria-role="presentation" aria-label="PUBLIC ADDRESS LOUDSPEAKER"> </i> Aurélie <strong>cherche une dreamteam de développeurs</strong>  en Île-de-france,  pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel</em> puis un Master par la suite.</p>
+        <p class="alert col-lg-10"> <i class="em em-loudspeaker"> </i> Aurélie <strong>cherche une dreamteam de développeurs</strong>  en Île-de-france,  pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel</em> puis un Master par la suite.</p>
         <p class="alert"><strong>Disponible entre Juillet et Septembre</strong> pour un stage ou un CDD !</p>
     </div>
     <div class="cards">

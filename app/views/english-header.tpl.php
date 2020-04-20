@@ -10,11 +10,8 @@
         <meta property="og:url" content="http://aurelie.chercheunealternance.fr"/>
         <meta property="og:type" content="website"/>
         <meta property="og:description" content="Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour une Licence Informatique. Présentation de ses projets professionnels et personnels de développement web. "/>
-        <meta itemprop="name" content="Aurélie ANGLIO"/>
-        <meta itemprop="url" content="http://aurelie.chercheunealternance.fr"/>
-        <meta itemprop="description" content="Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour une Licence Informatique. Présentation de ses projets professionnels et personnels de développement web. "/>
         <title>Aurélie ANGLIO - Junior Dev</title>
-        <link rel="shortcut icon" href="/images/favicon.ico" src="https://www.flaticon.com/authors/iconixar/">
+        <link rel="shortcut icon" href="/images/favicon.ico" href="https://www.flaticon.com/authors/iconixar/">
         <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
