@@ -104,6 +104,7 @@ div.informations p {
     font-family:  'Comfortaa';
     font-size: 5vw;
     line-height: 0.7em;
+    text-shadow: 3px 0px 5px rgba(0,0,0,0.56);
 }
 
 .project1 {
@@ -132,6 +133,7 @@ div.informations p {
     color: white;
     line-height: 0.2em;
     font-size: 1.8em;
+    text-shadow: 3px 0px 5px rgba(0,0,0,0.56);
 }
 
 footer {
