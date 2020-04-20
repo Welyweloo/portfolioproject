@@ -5,7 +5,7 @@ a, a:visited {
 }
 
 a.active {
-    color: #ff7675;
+    text-decoration: underline;
 }
 
 .nav--language {
@@ -130,7 +130,7 @@ div.informations p {
 .project--informations {
     opacity: 100%;
     position: absolute;
-    color: white;
+    color: hsla(360, 100%, 100%, 1);
     line-height: 0.2em;
     font-size: 1.8em;
     text-shadow: 3px 0px 5px rgba(0,0,0,0.56);

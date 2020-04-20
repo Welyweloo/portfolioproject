@@ -32,10 +32,10 @@
                 </li>
             </ul>
             <div class="image m-5">
-                <img class="rounded-circle img-thumbnail mx-auto d-block" src="/images/image.png" alt="Aurelie's Picture" />
+                <img class="rounded-circle img-thumbnail mx-auto d-block" src="/images/aurelie.png" alt="Aurelie's Picture" />
             </div>
             <div class="informations text-center m-2">
-                <h1 class="m-0">Aurélie A. <span class="localisation"> <i class="em em-round_pushpin" aria-role="presentation" aria-label="ROUND PUSHPIN"></i> Paris</span></h1>
+                <h1 class="m-0">Aurélie A. <span class="localisation"> <i class="em em-round_pushpin"></i> Paris</span></h1>
                 <p>Web and software development</p>
             </div>
             <ul class="nav justify-content-center m-2">

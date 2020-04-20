@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour une Licence Informatique. Présentation de ses projets professionnels et personnels de développement web. ">
         <meta property="og:site_name" content="Aurélie ANGLIO"/>
         <meta property="og:title" content="DEVELOPPEUR WEB"/>
         <meta property="og:url" content="http://aurelie.chercheunealternance.fr"/>
@@ -31,10 +32,10 @@
                 </li>
             </ul>
             <div class="image m-5">
-                <img class="rounded-circle img-thumbnail mx-auto d-block" src="/images/image.png" alt="Photo d'Aurélie" />
+                <img class="rounded-circle img-thumbnail mx-auto d-block" src="/images/aurelie.png" alt="Photo d'Aurélie" />
             </div>
             <div class="informations text-center m-2">
-                <h1 class="m-0">Aurélie A. <span class="localisation"><i class="em em-round_pushpin" aria-role="presentation" aria-label="ROUND PUSHPIN"></i> Paris</span></h1>
+                <h1 class="m-0">Aurélie A. <span class="localisation"><i class="em em-round_pushpin"></i> Paris</span></h1>
                 <p>Développement web et logiciel</p>
             </div>
             <ul class="nav justify-content-center m-2">
