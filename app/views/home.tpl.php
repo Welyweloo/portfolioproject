@@ -35,6 +35,7 @@
                         <h5 class="card-title">En cours (personnel)</h5>
                         <p class="card-text">Projet Arduino</p>
                         <p class="card-text">Python</p>
+                        <p class="card-text">Django</p>
                         <p class="card-text">Administration Système</p>
                     </div>
                 </div>
