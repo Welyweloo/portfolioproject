@@ -1,9 +1,8 @@
         
         <div class="container container--about row mx-auto justify-content-center">
             <div class="row justify-content-center">
-                <p class="presentation text-justify col-lg-10">Ancienne Chargée d'Affaires dans le transport arrivée dans la communauté des développeurs en 2019 après une formation autodidacte, actuellement en formation de Développeur Web dans la splendide école<strong> O'Clock</strong>, jusqu'en Juin 2020.</p>
-                <p class="alert col-lg-10"> <i class="em em-loudspeaker"> </i> Aurélie <strong>cherche une dreamteam de développeurs</strong>  en Île-de-france,  pour une <strong>alternance</strong> débutant en Septembre ou en Octobre 2020 (<em>entre 12 et 36 mois</em>) en vue de préparer <em>une Licence Informatique, Parcours Développement Web et Logiciel</em> puis un Master par la suite.</p>
-                <p class="alert"><strong>Disponible également entre Juillet et Septembre</strong> pour un stage ou un CDD !</p>
+                <p class="alert text-center">Bienvenue sur mon portfolio, <br/> Vous pourrez y découvrir mes différents projets, télécharger mon cv, ou encore me contacter.</p>
+                <p class="alert col-lg-10 text-center"> <i class="em em-loudspeaker"> </i> Je <strong>cherche une équipe de développeurs</strong>  en Île-de-france ou en remote, qui m'accompagnera dans ma montée en compétences durant une <strong>alternance</strong> débutant en Octobre 2021 (<em>durée 12 à 24 mois</em>) en vue de préparer <br />soit <em>un Master MIAGE</em>, soit un <em>Titre de Concepteur en architecture</em> (niveau 6 RNCP).</p>
             </div>
             <div class="cards">
                 <div class="card card--softskills col 3 m-3" style="width: 18rem;">
@@ -14,29 +13,29 @@
                         <p class="card-text">Écoute Active</p>
                         <p class="card-text">Organisation</p>
                         <p class="card-text">Persévérance</p>
-                        <p class="card-text">Travail en équipe</p>
+                        <p class="card-text">Travail en équipe (Scrum)</p>
                     </div>
                 </div>
                 <div class="card card--hardskills col 3 m-3" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Compétences Techniques</h5>
-                        <p class="card-text">PHP, POO, MVC, API</p>
-                        <p class="card-text">Symfony</p>
-                        <p class="card-text">SQL</p>
-                        <p class="card-text">GIT</p>
-                        <p class="card-text">HTML/CSS</p>
-                        <p class="card-text">Bootstrap</p>
-                        <p class="card-text">JavaScript</p>
-                        <p class="card-text">Méthodologie Scrum</p>
+                        <p class="card-text">Python (Django)</p>
+                        <p class="card-text">PHP (Symfony)</p>
+                        <p class="card-text">Java SE</p>
+                        <p class="card-text">HTML, CSS, JavaScript, Bootstrap</p>
+                        <p class="card-text">Git/Github</p>
+                        <p class="card-text">MySQL, MariaDB</p>
+                        <p class="card-text">API</p>
+                        <p class="card-text">Linux Raspbian/Ubuntu et Mac OS</p>
                     </div>
                 </div>
                 <div class="card card--development col 3 m-3" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">En cours (personnel)</h5>
-                        <p class="card-text">Projet Arduino</p>
-                        <p class="card-text">Python</p>
-                        <p class="card-text">Django</p>
-                        <p class="card-text">Administration Système</p>
+                        <h5 class="card-title">En cours d'apprentissage</h5>
+                        <p class="card-text">VueJS</p>
+                        <p class="card-text">Docker</p>
+                        <p class="card-text">Adalo (no-code)</p>
+                        <p class="card-text">Coder proprement (Robert C. Martin)</p>
                     </div>
                 </div>
             </div>  

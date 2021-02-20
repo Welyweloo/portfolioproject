@@ -13,17 +13,25 @@ a.active {
 }
 
 .rounded-circle {
-    max-width: 200px;
-    max-height: 200px;
-    -webkit-box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.75);
-    box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.75);
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.15);
+    box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.15);
 }
 
-.cv, .oshop, .oblog, .todolist {
+.cv, .oshop, .oblog, .todolist, .dream-travel, .instamed, .ihm {
     width: 300px;
     height: 150px;
     opacity: 30%;
+}
+
+.instamed {
+    opacity: 40%;  
+}
+
+.ihm {
+    opacity: 20%;  
 }
 
 .informations {
@@ -79,15 +87,15 @@ div.informations p {
     z-index:1000;
 }
 
-.project1 a {
+.project1 a, .project7 a {
     color: #00b894;
 }
 
-.project2 a {
+.project2 a, .project6 a {
     color: #ff7675;
 }
 
-.project3 a {
+.project3 a, .project8 a {
     color: #fdcb6e;
 }
 
@@ -107,15 +115,15 @@ div.informations p {
     text-shadow: 3px 0px 5px rgba(0,0,0,0.56);
 }
 
-.project1 {
+.project1, .project7 {
     background-color: #00b894;
 }
 
-.project2 {
+.project2, .project6 {
     background-color: #ff7675;
 }
 
-.project3 {
+.project3, .project8 {
     background-color: #fdcb6e;
 }
 
@@ -316,7 +324,7 @@ p.card-text {
         top: -20px;
     }
 
-      .cv, .oshop, .oblog, .todolist {
+      .cv, .oshop, .oblog, .todolist, .dream-travel, .instamed, .ihm {
         width: 320px;
         height: 180px;
         opacity: 30%;
@@ -348,15 +356,15 @@ p.card-text {
         color: black;
     } 
 
-    .project1 a:hover {
+    .project1 a:hover, .project7 a:hover {
         color: #00b894;
     }
     
-    .project2 a:hover {
+    .project2 a:hover, .project6 a:hover {
         color: #ff7675;
     }
     
-    .project3 a:hover {
+    .project3 a:hover, .project8 a:hover {
         color: #fdcb6e;
     }
     

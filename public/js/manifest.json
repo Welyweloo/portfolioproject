@@ -1,0 +1,15 @@
+{
+    "name": "Aurélie cherche une alternance",
+    "short_name": "Aurélie cherche une alternance",
+    "start_url": "http://aurelie.chercheunealternance.fr",
+    "display": "browser",
+    "description": "Portfolio d'Aurélie ANGLIO, en recherche d'alternance pour son Bac+4. Présentation de ses projets professionnels et personnels de développement web.",
+    "icons": {
+      "src": "images/aurelie-icon.png",
+      "sizes": "180x18",
+      "type": "image/png",
+      "purpose": "any maskable",
+    },
+    "prefer_related_applications": true,
+    "theme_color": "#317EFB"
+  }
