@@ -20,7 +20,7 @@ a.active {
     box-shadow: 7px 10px 19px -13px rgba(0,0,0,0.15);
 }
 
-.cv, .oshop, .oblog, .todolist, .dream-travel, .instamed, .ihm {
+.cv, .oshop, .oblog, .todolist, .dream-travel, .instamed, .ihm, .perfect-maze {
     width: 300px;
     height: 150px;
     opacity: 30%;
@@ -103,7 +103,7 @@ div.informations p {
     color: #fd79a8;
 }
 
-.project5 a {
+.project5 a, .project9 a  {
     color: #78e08f;
 }
 
@@ -131,7 +131,7 @@ div.informations p {
     background-color: #fd79a8;
 }
 
-.project5 {
+.project5, .project9 {
     background-color: #78e08f;
 }
 
@@ -324,7 +324,7 @@ p.card-text {
         top: -20px;
     }
 
-      .cv, .oshop, .oblog, .todolist, .dream-travel, .instamed, .ihm {
+      .cv, .oshop, .oblog, .todolist, .dream-travel, .instamed, .ihm, .perfect-maze {
         width: 320px;
         height: 180px;
         opacity: 30%;
@@ -372,7 +372,7 @@ p.card-text {
         color: #fd79a8;
     }
     
-    .project5 a:hover {
+    .project5 a:hover, .project9 a:hover {
         color: #78e08f;
     }
 

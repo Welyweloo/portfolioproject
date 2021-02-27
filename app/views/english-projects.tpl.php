@@ -1,5 +1,22 @@
 
 <main class="container row mx-auto justify-content-center">
+    <div class="project--div project9 m-3 text-center">
+        <div class="project--informations">
+            <p>Game : Perfect Maze</p>
+            <p class="tags">#JS #HTML #CSS</p>
+        </div>           
+        <video class="perfect-maze mx-auto d-block" autoplay loop>
+            <source src="/images/perfect-maze.mp4" type="video/mp4">
+        </video>
+        <ul class="nav project-hover">
+            <li class="nav-item github">
+                <a class="nav-link" href="https://github.com/Welyweloo/perfect-maze" target="_blank" rel="noreferrer"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Watch the code"></i></a>
+            </li>
+            <li class="nav-item view">
+                <a class="nav-link" href="http://aurelie.chercheunealternance.fr/perfect-maze/" target="_blank" rel="noreferrer"><i class="fas fa-eye" data-toggle="tooltip" data-placement="bottom" title="Browse"></i></a>
+            </li>
+        </ul>
+    </div>
     <div class="project--div project8 m-3 text-center">
         <div class="project--informations">
             <p>Connected assistant</p>
